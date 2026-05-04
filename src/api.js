@@ -3,7 +3,7 @@
 // ============================================================
 
 export const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbwNJN25lV392Lhf38Mqe3lAlKbhXKY0hpZR_x5DPygb-KjLyYYKFSc8O4WL00TKhJ04/exec";
+  "https://script.google.com/macros/s/AKfycbzrgLkNxj5g7BoXRDFRDgXLspiUmOtaHnSa1m6v3A4evrr5Do-bscC7VUsYTBNVgab0/exec";
 
 async function get(action, params={}) {
   const query = new URLSearchParams({ action, ...params }).toString();
